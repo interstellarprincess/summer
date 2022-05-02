@@ -18,4 +18,5 @@
     -2px 0 0 #000000,
     2px 0 0 #000000,
     0 2px 0 #000000,
-    0 -2px 0 #000000;}body.silex-runtime {opacity: 1;}
+    0 -2px 0 #000000;}
+.website-width {width: nullpx;}@media (min-width: 481px) {.silex-editor {min-width: 200px;}}body.silex-runtime {opacity: 1;}
