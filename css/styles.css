@@ -27,5 +27,6 @@
 .text-style-8.text-element > .silex-element-content {font-family: 'Roboto', sans-serif; font-variant: small-caps; color: #00ff00; text-transform: uppercase; letter-spacing: 8px;}@media only screen and (max-width: 480px) {.text-style-8.text-element > .silex-element-content {font-variant: small-caps; font-weight: normal; line-height: -1; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; border-style: solid; border-width: 3px; border-color: #00ff00;}}
 
 
+
 .website-width {width: nullpx;}@media (min-width: 481px) {.silex-editor {min-width: 200px;}}
 body.silex-runtime {opacity: 1;}
