@@ -4,11 +4,11 @@
 .website-width {width: 1200px;}@media (min-width: 481px) {.silex-editor {min-width: 1400px;}}
 .outlined-text {
             font-size: 22px;
-            color: #ffbeff;
+            color: #ff90ff;
             text-shadow: 
-                -1px -1px 0 #241536,
-                 1px -1px 0 #241536,
-                -1px  1px 0 #241536,
-                 1px  1px 0 #241536;
+                -1px -1px 0 #0c0c0c,
+                 1px -1px 0 #0c0c0c,
+                -1px  1px 0 #0c0c0c,
+                 1px  1px 0 #0c0c0c;
         }
-h1 {font-family: 'chakra petch', sans-serif; font-variant: normal; font-weight: bolder; font-size: 22px; color: #ffbeff; text-align: center; text-transform: lowercase; line-height: -1; border-style: double; border-color: #ff00ff; padding: 30px; width: fit-content; width: -webkit-fit-content; width: -moz-fit-content;}h3 {font-family: 'chakra petch', sans-serif; font-variant: normal; font-weight: bolder; font-size: 22px; color: #6cc1b3; text-align: center; text-transform: lowercase; line-height: -1; border-style: double; border-color: #ff00ff;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}a {color: #ffbdff; text-decoration: none; text-transform: none; border-width: 0; border-color: #ffffff;}[data-silex-href] {color: #ffbdff; text-decoration: none; text-transform: none; border-width: 0; border-color: #ffffff;}@media only screen and (max-width: 480px) {h3 {}}body.silex-runtime {opacity: 1;}
+h1 {font-family: 'chakra petch', sans-serif; font-variant: normal; font-weight: bolder; font-size: 22px; color: #ff90ff; text-align: center; text-transform: lowercase; line-height: -1; border-style: double; border-color: #ff00ff; padding: 20px; width: fit-content; width: -webkit-fit-content; width: -moz-fit-content;}h3 {font-family: 'chakra petch', sans-serif; font-variant: normal; font-weight: bolder; font-size: 22px; color: #6cc1b3; text-align: center; text-transform: lowercase; line-height: -1; border-style: double; border-color: #ff00ff;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}a {color: #ffbdff; text-decoration: none; text-transform: none; border-width: 0; border-color: #ffffff;}[data-silex-href] {color: #ffbdff; text-decoration: none; text-transform: none; border-width: 0; border-color: #ffffff;}@media only screen and (max-width: 480px) {h3 {}}body.silex-runtime {opacity: 1;}
