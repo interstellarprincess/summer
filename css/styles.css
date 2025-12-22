@@ -18,6 +18,8 @@
             margin: auto;
         }
 .content {
+    padding:3px;
+    width:auto;
     position:relative;
     background: rgba(255, 0, 255, 0.25);
 }
