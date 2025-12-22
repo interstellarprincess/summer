@@ -99,6 +99,7 @@ body.silex-runtime.body-initial .fixed {
   }
   body.enable-mobile .editable-style.section-element {
     padding: 0;
+	  flex-shrink: 0;
   }
   body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
     max-width: 100%; /* while dragging let the user size the elements freely */
@@ -106,7 +107,6 @@ body.silex-runtime.body-initial .fixed {
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: center;
 	  max-width: 100%;
-	  max-height: 400px;
   img#smolla {
     display: inline-block;
 	  max-width: 50px;
