@@ -91,7 +91,7 @@ body.silex-runtime.body-initial .fixed {
     position: static;
     top: auto;
     left: auto;
-    max-width: 300px;
+    max-width: 100%;
     min-width: auto; /* this is to remove sections min-width, since section min-width is set to the witdh of its content in Element::setStyle() */
     margin-left: auto;
     margin-right: auto;
@@ -100,14 +100,14 @@ body.silex-runtime.body-initial .fixed {
     padding: 0;
   }
   body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
-    max-width: 50px; /* while dragging let the user size the elements freely */
+    max-width: 100%; /* while dragging let the user size the elements freely */
   }
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: center;
 	  max-width: 50px;
   }
   body.enable-mobile .editable-style.section-element {
-    max-width: 50px; /* section bg should be 100% width because user do not need to grab the side and resize */
+    max-width: 100%; /* section bg should be 100% width because user do not need to grab the side and resize */
     padding: 0;
     margin: 0;
   }
@@ -125,7 +125,7 @@ body.silex-runtime.body-initial .fixed {
     display: initial;
   }
   body.silex-runtime.enable-mobile .background.background-initial {
-    max-width: 300px;
+    max-width: 100%;
   }
 }
 
