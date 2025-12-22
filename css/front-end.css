@@ -91,7 +91,7 @@ body.silex-runtime.body-initial .fixed {
     position: static;
     top: auto;
     left: auto;
-    max-width: 100%;
+    max-width: 480px;
     min-width: auto; /* this is to remove sections min-width, since section min-width is set to the witdh of its content in Element::setStyle() */
     margin-left: auto;
     margin-right: auto;
