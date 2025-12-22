@@ -100,7 +100,7 @@ body.silex-runtime.body-initial .fixed {
     padding: 0;
   }
   body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
-    max-width: unset; /* while dragging let the user size the elements freely */
+    max-width: auto; /* while dragging let the user size the elements freely */
   }
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: relative;
