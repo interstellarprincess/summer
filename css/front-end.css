@@ -77,15 +77,6 @@ body.silex-runtime.body-initial .fixed {
     position: relative;
   }
 
-@media (max-width:300px) {
-	body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
-    max-width: 100%; /* while dragging let the user size the elements freely */
-  }
-  img#smolla {
-    position: relative;
-	  width: 300px;
-  }
-}
 	
   /* hide horizontal scroll bar which appears because of residual values in css
   html {
@@ -115,6 +106,10 @@ body.silex-runtime.body-initial .fixed {
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: center;
 	  max-width: 100%;
+  img#smolla {
+    position: relative;
+	  width: 300px;
+  }
   }
   body.enable-mobile .editable-style.section-element {
     max-width: 100%; /* section bg should be 100% width because user do not need to grab the side and resize */
