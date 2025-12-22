@@ -108,7 +108,7 @@ body.silex-runtime.body-initial .fixed {
 	  max-width: 100%;
   img#smolla {
     position: relative;
-	  width: 300px;
+	  max-width: 300px;
   }
   }
   body.enable-mobile .editable-style.section-element {
