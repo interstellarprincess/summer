@@ -106,6 +106,7 @@ body.silex-runtime.body-initial .fixed {
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: center;
 	  max-width: 100%;
+	  max-height: 600px;
   img#smolla {
     display: inline-block;
 	  max-width: 50px;
@@ -113,6 +114,7 @@ body.silex-runtime.body-initial .fixed {
   }
   body.enable-mobile .editable-style.section-element {
     max-width: 100%; /* section bg should be 100% width because user do not need to grab the side and resize */
+	  max-height: 500px;
     padding: 0;
     margin: 0;
   }
