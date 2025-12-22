@@ -93,6 +93,7 @@ body.silex-runtime.body-initial .fixed {
     top: 10px;
     left: auto;
     max-width: 100%;
+	  max-height: 500px;
     min-width: auto; /* this is to remove sections min-width, since section min-width is set to the witdh of its content in Element::setStyle() */
     margin-left: auto;
     margin-right: auto;
@@ -102,6 +103,7 @@ body.silex-runtime.body-initial .fixed {
   }
   body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
     max-width: 100%; /* while dragging let the user size the elements freely */
+	  max-height: 500px;
   }
   body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
     position: center;
