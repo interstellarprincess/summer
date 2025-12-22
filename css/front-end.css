@@ -118,10 +118,11 @@ body.silex-runtime.body-initial .fixed {
   }
   body.enable-mobile .container-element:not(.paged-element-hidden) {
     display: flex;
-	  flex-shrink: 0;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
   }
   /* but still hide paged elements or desktop only elements */
   body.enable-mobile .editable-style.hide-on-mobile {
