@@ -101,6 +101,7 @@ body.silex-runtime.body-initial .fixed {
   }
   body.enable-mobile .editable-style.section-element {
     padding: 0;
+	  max-height: 500px;
   }
   body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
     max-width: 100%; /* while dragging let the user size the elements freely */
