@@ -148,7 +148,7 @@ body.silex-runtime.body-initial .fixed {
     position: relative;
   }
 }
-
+#lagif { max-width: 100%;}
 /**
  * prodotype components
  */
