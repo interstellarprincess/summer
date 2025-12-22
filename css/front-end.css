@@ -78,6 +78,9 @@ body.silex-runtime.body-initial .fixed {
   }
 
 @media (max-width:300px) {
+	body.enable-mobile.silex-resizing .editable-style:not(.prevent-mobile-style) {
+    max-width: 100%; /* while dragging let the user size the elements freely */
+  }
   img#smolla {
     position: relative;
 	  width: 300px;
