@@ -77,6 +77,12 @@ body.silex-runtime.body-initial .fixed {
     position: relative;
   }
 
+@media (max-width:300px) {
+  img#smolla {
+    display: auto;
+  }
+}
+	
   /* hide horizontal scroll bar which appears because of residual values in css
   html {
     overflow-x: hidden;
