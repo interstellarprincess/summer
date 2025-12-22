@@ -79,7 +79,7 @@ body.silex-runtime.body-initial .fixed {
 
 @media (max-width:300px) {
   img#smolla {
-    display: auto;
+    position: relative;
   }
 }
 	
