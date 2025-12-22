@@ -121,7 +121,6 @@ body.silex-runtime.body-initial .fixed {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-	padding: -50 px;
   }
   /* but still hide paged elements or desktop only elements */
   body.enable-mobile .editable-style.hide-on-mobile {
