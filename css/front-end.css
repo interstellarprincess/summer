@@ -7,18 +7,6 @@ body {
   min-width: 98vw; /* remove approx size of vertical scroll bar */
 }
 
-.image-container {
-  width: 200px;
-  height: 300px;
-  border: 1px solid black;
-  margin-bottom: 25px;
-}
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 /* prevent-auto-z-index is to let the components handle their z-index */
 .section-element > .silex-element-content > *:not(.prevent-auto-z-index):not(.fixed) {
